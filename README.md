@@ -3,13 +3,13 @@ This is a personal portfolio of my course work in data science as well as indepe
 
 ## Independent Research 
 
-**Computational Astrophysics:**
+**Computational Astrophysics:**  
 *Analysis of Galactic Imaging using Complex Steerable Pyramids - Thesis*
 - [Abstract]()
 - [Code]()
 - [Report]()
 
-**Data Sciencce:**  
+**Data Science:**  
 *Cross Validation on Data Simulation*
 
 - [Abstract](/instructions.pdf)
