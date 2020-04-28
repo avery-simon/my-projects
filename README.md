@@ -3,7 +3,7 @@ This is a personal portfolio of my course work in data science as well as indepe
 
 ## Independent Research 
 
-**Cross Validation:**
+**Cross Validation on Data Simulation:**
 
 - [Abstract](/instructions.pdf)
 - [Code](/script.py)
