@@ -10,3 +10,4 @@ During my time at New York University I took a course in data science that invol
 
 ## Independent Research Pojects
 
+[Project 1](/My_work)
