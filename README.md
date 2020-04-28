@@ -5,12 +5,12 @@ This is a personal portfolio of my course work in data science as well as indepe
 
 **Computational Astrophysics:**  
 *Analysis of Galactic Imaging using Complex Steerable Pyramids - Thesis*
-- [Abstract]()
+- [Abstract](https://github.com/avery-simon/thesis)
 - [Code]()
 - [Report]()
 
 **Data Science:**  
-*Cross Validation on Data Simulation*
+*Cross Validation on Data Simulations*
 
 - [Abstract](/instructions.pdf)
 - [Code](/script.py)
