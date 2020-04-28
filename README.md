@@ -12,7 +12,7 @@ During my time at New York University I took a course in data science that invol
 
 Project 1:
 
-[Instructions](/My_work/data_scientist_problems.pdf)
+[Instructions](/My_work/instructions.pdf)
 
 [Code](/My_work/script.py)
 
