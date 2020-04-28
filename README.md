@@ -9,7 +9,7 @@ This is a personal portfolio of my course work in data science as well as indepe
 - [Code](/script.py)
 - [Report](/Report.pdf)
 
-**Computational Astrophysics**
+**Computational Astrophysics:** * *- Thesis* *
 - [Abstract]()
 - [Code]()
 - [Report]()
