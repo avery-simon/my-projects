@@ -13,5 +13,7 @@ During my time at New York University I took a course in data science that invol
 Project 1:
 
 [Instructions](/My_work/data_scientist_problems.pdf)
+
 [Code](/My_work/script.py)
+
 [Report](/My_work/Report.pdf)
