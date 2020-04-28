@@ -8,10 +8,15 @@ During my time at New York University I took a course in data science that invol
 
 [Project 2](/project2.pdf)
 
-## Independent Research Pojects
+## Independent Research Projects
 
-**Project 1:**
+**Cross Validation:**
 
-- [Instructions](/My_work/instructions.pdf)
-- [Code](/My_work/script.py)
-- [Report](/My_work/Report.pdf)
+- [Abstract](/instructions.pdf)
+- [Code](/script.py)
+- [Report](/Report.pdf)
+
+**Computational Astrophysics**
+- [Abstract]()
+- [Code]()
+- [Report]()
