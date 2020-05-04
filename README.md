@@ -24,10 +24,10 @@ During my time at New York University I took a course in data science that invol
 
 ## Samples of my work using different programming tools
 
-- [Python]
+- [Python](/samples/pythonsample.py)
 - [Java](/samples/javasample.java)
-- [SQL]
+- [SQL](/samples/sqlsample.sql)
 - [Matlab](/samples/matlabsample.m)
 - [HTML & Javascript](/samples/htmlsample.html)
 - [PHP](/samples/phpsample.php)
-- [Mathematica](/samples/wolfsample.nb)
+- [Maple](/samples/maplesample.mw)
