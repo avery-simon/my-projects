@@ -25,9 +25,9 @@ During my time at New York University I took a course in data science that invol
 ## Samples of my work using different programming tools
 
 - [Python]
-- [Java]
+- [Java](/samples/javasample.java)
 - [SQL]
-- [Matlab](/proj1.m)
+- [Matlab](/samples/matlabsample.m)
 - [Javascript]
 - [PHP]
 - [Mathematica]
