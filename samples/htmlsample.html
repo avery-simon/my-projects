@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="pink"> 
+
+<head>
+	<h1><center>Welcome to the Blackjack Game</center></h1>
+</head>
+<body>
+	<center>
+		<div>
+			<img id="firstCard" src="card_gifs/cardback.gif">
+			<img id="secondCard" src="card_gifs/cardback.gif">
+		</div>
+	<br>
+	<div id="text">
+		<center>
+			<form>
+				Points for Card 1: <input id="points1" value="0" size="2" style="text-align: center;"readonly>
+				<br>
+				Points for Card 2: <input id="points2" value="0" size="2" style="text-align: center;"readonly>
+				<br><br>
+				Points for the hand: <input id="pointsHand" value="0" size="2" style="text-align: center;"readonly>
+				<br>
+				Numbers of hands so far: <input id="numHands" value="0" size="2" style="text-align: center;"readonly>
+			</form>
+		</center>
+	<button onclick="deal()">Deal a Hand</button>
+
+	</center>
+	<script>
+		window.onload=checkCookie()
+
+		var cards=["2hearts.gif","3hearts.gif","4hearts.gif","5hearts.gif","6hearts.gif","7hearts.gif","8hearts.gif","9hearts.gif","10hearts.gif","11hearts.gif","12hearts.gif","13hearts.gif","14hearts.gif"];
+
+		nh=0;
+		num_pairs=0;
+		function deal(){
+			shuffle(cards)
+			document.getElementById("firstCard").src="card_gifs/"+cards[0]
+			var p1=num_sep(cards[0]);
+			document.getElementById("points1").value=p1;
+
+			shuffle(cards)
+			document.getElementById("secondCard").src="card_gifs/"+cards[0]
+			var p2=num_sep(cards[0]);
+			document.getElementById("points2").value=p2;
+
+			var ph=Number(p1)+Number(p2);
+			nh=nh+1
+			document.getElementById("numHands").value=nh;
+			document.getElementById("pointsHand").value=ph;
+
+			if (Number(p1)==Number(p2)){
+				num_pairs=num_pairs+1;
+			}
+			if (ph==21){
+				openWindow()
+				button=document.createElement("BUTTON");
+				button.onclick=closeWindow();
+			}
+		}
+
+		function shuffle(array){
+	  		for (let i=array.length-1;i>0;i--){
+	    		let j=Math.floor(Math.random()*(i+1)); 
+	    		[array[i],array[j]]=[array[j],array[i]];
+  			}
+		}
+
+		function num_sep(str){
+			if (str.length==11){
+				return str[0];
+			}
+			else{
+				if (Number(str.substring(0,2))==11){
+					return str.substring(0,2);
+				}
+				return "10";
+			}
+		}
+
+		function openWindow(){
+			myWindow=window.open("congradulations.html");
+		}
+
+		function closeWindow(){
+			myWindow.close();
+		}
+
+		function setCookie(name,value,exp_days){
+		  var d=new Date();
+		  d.setTime(d.getTime()+(exp_days*86400000));
+		  var expires="expires="+d.toUTCString();
+		  document.cookie=name+"="+value+";"+expires+";path=/";
+		}
+
+		function getCookie(name){
+		  var Name=name+"=";
+		  var ca=document.cookie.split(';');
+		  for(var i=0;i<ca.length;i++){
+		    var c=ca[i];
+		    while (c.charAt(0)==' '){
+		      c=c.substring(1);
+		    }
+		    if (c.indexOf(name)==0){
+		      return c.substring(Name.length,c.length);
+		    }
+		  }
+		  return "";
+		}
+
+		function checkCookie(){
+			user=prompt("Please enter your username:","");
+		    var user=getCookie("username");
+			if (user!=""){
+			    alert("Welcome again "+user);
+			}
+			else{
+			    if (user!="" && user!=null) {
+			      setCookie("username",user,365);
+			 	}
+			}
+		  } 
+	</script>

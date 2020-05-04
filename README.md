@@ -28,6 +28,6 @@ During my time at New York University I took a course in data science that invol
 - [Java](/samples/javasample.java)
 - [SQL]
 - [Matlab](/samples/matlabsample.m)
-- [Javascript]
+- [HTML & Javascript](/samples/htmlsample.html)
 - [PHP]
 - [Mathematica]
