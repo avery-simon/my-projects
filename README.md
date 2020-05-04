@@ -27,7 +27,7 @@ During my time at New York University I took a course in data science that invol
 - [Python]
 - [Java]
 - [SQL]
-- [Matlab]
+- [Matlab](/proj1.m)
 - [Javascript]
 - [PHP]
 - [Mathematica]
