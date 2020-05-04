@@ -29,5 +29,5 @@ During my time at New York University I took a course in data science that invol
 - [SQL]
 - [Matlab](/samples/matlabsample.m)
 - [HTML & Javascript](/samples/htmlsample.html)
-- [PHP]
-- [Mathematica]
+- [PHP](/samples/phpsample.php)
+- [Mathematica](/samples/wolfsample.nb)
