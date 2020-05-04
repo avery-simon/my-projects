@@ -21,3 +21,13 @@ During my time at New York University I took a course in data science that invol
 
 - [Project 1](/project1.pdf)
 - [Project 2](/project2.pdf)
+
+## Samples of my work using different programming tools
+
+- [Python]
+- [Java]
+- [SQL]
+- [Matlab]
+- [Javascript]
+- [PHP]
+- [Mathematica]
