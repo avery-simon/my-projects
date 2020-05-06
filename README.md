@@ -12,7 +12,7 @@ This is a personal portfolio of my course work in data science as well as indepe
 **Data Science:**  
 *Cross Validation on Data Simulations*
 
-- [Abstract](/instructions.pdf)
+- [Abstract](/abstract.pdf)
 - [Code](/script.py)
 - [Report](/Report.pdf)
 
